@@ -11,21 +11,28 @@ adat = file.readlines()
 
 
 class DailyRecord:
+    @staticmethod
+    def safe_int_convert(value):
+        try:
+            return int(value)
+        except (ValueError, TypeError):
+            return value
+        
     def __init__(self, date=None, school=None, work=None, fullwork=None, incomes=None, expenses=None, podcast=None, 
                  reading=None, diet=None, workout=None, meditation=None, masturbation=None, music=None, gaming=None, 
                  wake=None, bed=None, sleep=None, score=None, note=None):
         self.date = date
-        self.school = school
-        self.work = work
-        self.fullwork = fullwork
-        self.incomes = incomes
-        self.expenses = expenses
-        self.podcast = podcast
-        self.reading = reading
+        self.school = self.safe_int_convert(school)
+        self.work = self.safe_int_convert(work)
+        self.fullwork = self.safe_int_convert(fullwork)
+        self.incomes = self.safe_int_convert(incomes)
+        self.expenses = self.safe_int_convert(expenses)
+        self.podcast = self.safe_int_convert(podcast)
+        self.reading = self.safe_int_convert(reading)
         self.diet = diet
         self.workout = workout
         self.meditation = meditation
-        self.masturbation = masturbation
+        self.masturbation = self.safe_int_convert(masturbation)
         self.music = music
         self.gaming = gaming
         self.wake = wake
@@ -36,43 +43,93 @@ class DailyRecord:
 
     def morning(self):
         if len(self.wake) == 4:
-            morningTime = int(self.wake[0])*60 + int(self.wake[2:])
+            return int(self.wake[0])*60 + int(self.wake[2:])
         elif len(self.wake) == 5:
-            morningTime = int(self.wake[:2])*60 + int(self.wake[3:])
-        return morningTime
+            return int(self.wake[:2])*60 + int(self.wake[3:])
 
     def night(self):
-        if len(self.bed) == 5:
-            nightTime = int(self.bed[:2])*60 + int(self.bed[3:])
-        elif len(self.bed) == 4:
-            nightTime = 1440 + int(self.bed[:1])*60 + int(self.bed[2:])
-        return nightTime
+        hours, minutes = self.bed.split(':')
+        if int(hours) >= 15:
+            return int(hours)*60 + int(minutes)
+        elif int(hours) < 15:
+            return 1440 + int(hours)*60 + int(minutes)
+    
+    def sleep_duration(self):
+        hours, minutes, seconds = self.sleep.split(':')
+        return int(hours)*60+int(minutes)
 
 db = []
 records = []
 for line in adat:
-    # date,school,work,fullwork,incomes,expenses,podcast,reading,diet,workout,meditation,masturbation,music,gaming,wake,bed,sleep,score,note = line.strip().split('\t')
-    #print(date,school,work,expenses,incomes,podcast,reading,diet,workout,meditation,masturbation,music,gaming,wake,bed,sleep,score,note)
-
     values = line.strip().split('\t')
     keys = ['date', 'school', 'work', 'fullwork', 'incomes', 'expenses', 'podcast', 'reading', 'diet', 'workout', 
             'meditation', 'masturbation', 'music', 'gaming', 'wake', 'bed', 'sleep', 'score', 'note']
-    
-    # Use zip_longest to pair keys with values, using None as the default for missing values
     variables = dict(zip_longest(keys, values, fillvalue=None))
 
     record = DailyRecord(**variables)
     
-    # Append the object to the records list
     records.append(record)
 
     line = line.strip().split('\t')
     db.append(line)
 
+print(records[17].sleep_duration())
+print(records[17].sleep)
+print(records[17].night())
+print(records[18].night())
 
+morning_avg = 0
+morning_records = 0
+night_avg = 0
+night_records = 0
+sleep_dur_avg = 0
+sleep_dur_records = 0
+score_avg = 0
+score_records = 0
 
-for i in range(len(records)):
-    pass
+for i in range(len(records), 1, 1):
+    record = records[i]
+
+    multiplier = 0.0415
+    nerfed_mulitplier = 0.0375
+
+    score = 0
+
+    if record.fullwork < 660:
+        work_score = record.fullwork * multiplier
+    else:
+        work_score = record.fullwork * nerfed_mulitplier
+
+    if  record.sleep < 540:
+        sleep_score = record.sleep * multiplier
+    else:
+        sleep_score = record.sleep * nerfed_mulitplier
+
+    if record.podcast < 75:
+        podcast_score = record.podcast * multiplier
+    else:
+        podcast_score = record.podcast * nerfed_mulitplier
+    
+    if record.reading < 75:
+        reading_score = record.reading * multiplier
+    else:
+        reading_score = record.reading * nerfed_mulitplier
+    
+    score = work_score + sleep_score + podcast_score + reading_score
+
+    if record.diet != 0:
+        score += 5
+    if record.workout != 0:
+        score += 7
+    if record.meditation != 0:
+        score += 5
+    if record.masturbation == 0:
+        score += 15
+    if record.music == 0:
+        score += 3
+    if record.gaming == 0:
+        score += 5
+
 
 mornings = 0
 nightTimes = []
