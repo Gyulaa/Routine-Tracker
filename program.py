@@ -1,4 +1,5 @@
 import os
+from itertools import zip_longest
 
 fileName = input("Input File Name> ")
 outFileName = input("Output File Name> ")
@@ -8,10 +9,53 @@ if os.path.exists(outFileName):
 outFile = open(outFileName, "x", encoding="utf-8")
 adat = file.readlines()
 
+
+class DailyRecord:
+    def __init__(self, date=None, school=None, work=None, fullwork=None, incomes=None, expenses=None, podcast=None, 
+                 reading=None, diet=None, workout=None, meditation=None, masturbation=None, music=None, gaming=None, 
+                 wake=None, bed=None, sleep=None, score=None, note=None):
+        self.date = date
+        self.school = school
+        self.work = work
+        self.fullwork = fullwork
+        self.incomes = incomes
+        self.expenses = expenses
+        self.podcast = podcast
+        self.reading = reading
+        self.diet = diet
+        self.workout = workout
+        self.meditation = meditation
+        self.masturbation = masturbation
+        self.music = music
+        self.gaming = gaming
+        self.wake = wake
+        self.bed = bed
+        self.sleep = sleep
+        self.score = score
+        self.note = note
+
 db = []
+records = []
 for line in adat:
+    # date,school,work,fullwork,incomes,expenses,podcast,reading,diet,workout,meditation,masturbation,music,gaming,wake,bed,sleep,score,note = line.strip().split('\t')
+    #print(date,school,work,expenses,incomes,podcast,reading,diet,workout,meditation,masturbation,music,gaming,wake,bed,sleep,score,note)
+
+    values = line.strip().split('\t')
+    keys = ['date', 'school', 'work', 'fullwork', 'incomes', 'expenses', 'podcast', 'reading', 'diet', 'workout', 
+            'meditation', 'masturbation', 'music', 'gaming', 'wake', 'bed', 'sleep', 'score', 'note']
+    
+    # Use zip_longest to pair keys with values, using None as the default for missing values
+    variables = dict(zip_longest(keys, values, fillvalue=None))
+    print(variables)
+
+    record = DailyRecord(**variables)
+    
+    # Append the object to the records list
+    records.append(record)
+
     line = line.strip().split('\t')
     db.append(line)
+print(records[4].note)
 
 mornings = 0
 nightTimes = []
