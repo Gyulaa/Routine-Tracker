@@ -15,7 +15,7 @@ Dátum	Iskolai Tanulmányok	Business, Önfejlesztés	Munkaidő	Bevétel	Kiadás	
 2024.05.14.	430	100	530	0	0	50	35	1	1	1	0	0	0	5:38	22:00	7:38:00	0	Átlagos nap. Este megnéztem egy Charlie Morgan videót, ami hasznos volt.
 2024.05.15.	220	110	330	0	0	53	30	1	0	1	0	0	1	5:35	21:45	7:50:00	0	Volt lyukas óra, ahol játszottunk valami böngészős minecraftot. Délután epret készítettünk elő.
 2024.05.16.	345	60	405	0	3500	90	49	0	0	1	0	0	1	6:05	22:00	8:05:00	0	Délután Orbán Balázs könyvbemutatóján voltam, de beszélgetni tudtam Kálnoky Borissal is. Megvettem a Huszárvágás könyvet. Este azt kezdtem el átgondolni, hogy milyen lehetne egy hatékony iskolai nap.
-2024.05.17.	295	0	295	0	0	0	50	1	0	1	1	0	1	6:00	21:35	8:25:00	0	
+2024.05.17.	295	0	295	0	0	0	50	1	0	1	1	0	1	6:00	4:35	8:25:00	0	
 2024.05.18.	0	260	260	0	0	14	60	1	1	1	0	0	1	5:40	22:10	7:30:00	0	Délután Minecraftoztam Leventével és Pereczessel. Logikusan végiggondolva egy hiba volt belemnni a minecraftozásba, remélem máskor jobban sikerül.
 2024.05.19.	100	270	370	0	0	31	10	1	1	1	0	0	1	6:15	23:00	7:15:00	0	Dolgozgattam, este pedig Leventével Minecraftoztunk.
 2024.05.20.	0	310	310	0	0	70	15	1	1	0	0	0	1	6:01	22:25	7:36:00	0	Délelőtt csináltam néhány cold callt (market research), de végül belefutottam valakibe, aki nem díjazta, hogy piros betűs ünnepeb zavarom, úgyhogy többet ilyet nem csinálok. A nyári alkotótáborhoz terveztem a szórólapot. Este Minecraftoztam...

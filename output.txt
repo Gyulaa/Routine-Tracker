@@ -15,7 +15,7 @@ Dátum	Iskolai Tanulmányok	Business, Önfejlesztés	Munkaidő	Bevétel	Kiadás	
 2024.05.14.	430	100	530	0	0	50	35	1	1	1	0	0	0	5:38	22:00	7:38:00	84	Átlagos nap. Este megnéztem egy Charlie Morgan videót, ami hasznos volt.	
 2024.05.15.	220	110	330	0	0	53	30	1	0	1	0	0	1	5:35	21:45	7:50:00	64	Volt lyukas óra, ahol játszottunk valami böngészős minecraftot. Délután epret készítettünk elő.	
 2024.05.16.	345	60	405	0	3500	90	49	0	0	1	0	0	1	6:05	22:00	8:05:00	65	Délután Orbán Balázs könyvbemutatóján voltam, de beszélgetni tudtam Kálnoky Borissal is. Megvettem a Huszárvágás könyvet. Este azt kezdtem el átgondolni, hogy milyen lehetne egy hatékony iskolai nap.	
-2024.05.17.	295	0	295	0	0	0	50	1	0	1	1	0	1	6:00	21:35	8:25:00	48	
+2024.05.17.	295	0	295	0	0	0	50	1	0	1	1	0	1	6:00	4:35	8:25:00	30	
 2024.05.18.	0	260	260	0	0	14	60	1	1	1	0	0	1	5:40	22:10	7:30:00	67	Délután Minecraftoztam Leventével és Pereczessel. Logikusan végiggondolva egy hiba volt belemnni a minecraftozásba, remélem máskor jobban sikerül.	
 2024.05.19.	100	270	370	0	0	31	10	1	1	1	0	0	1	6:15	23:00	7:15:00	70	Dolgozgattam, este pedig Leventével Minecraftoztunk.	
 2024.05.20.	0	310	310	0	0	70	15	1	1	0	0	0	1	6:01	22:25	7:36:00	65	Délelőtt csináltam néhány cold callt (market research), de végül belefutottam valakibe, aki nem díjazta, hogy piros betűs ünnepeb zavarom, úgyhogy többet ilyet nem csinálok. A nyári alkotótáborhoz terveztem a szórólapot. Este Minecraftoztam...	
@@ -30,4 +30,4 @@ Dátum	Iskolai Tanulmányok	Business, Önfejlesztés	Munkaidő	Bevétel	Kiadás	
 2024.05.29.	480	70	550	0	0	43	50	1	1	1	0	1	0	6:00	21:55	8:05:00	83	Iskolában jól éreztem mgam. Infó szakkörön tanultuk az objektum orientált programozást. Este anyával beszélgettünk biznisszel kapcsolatban.	
 2024.05.30.	360	160	520	0	0	60	55	1	1	0	0	0	1	6:07	22:00	8:07:00	76	Délután a rajztábor hirdetéseit készítettem Facebookon.	
 2024.05.31.	325	210	535	0	0	60	35	1	0	0	0	1	0	6:05	21:45	8:20:00	71	Délután ismét foglalkoztam a hirdetésekkel, rendet raktam a szobámban, megterveztem a követlező havi trackert.	
-Összesen / Átlag	6927	5471	12398	13000	15300	1579	1468	24	25	24	5	3	11	5:56	21:57	7:58	73	
+Összesen / Átlag	6927	5471	12398	13000	15300	1579	1468	24	25	24	5	3	11	5:56	22:11	7:44	72	

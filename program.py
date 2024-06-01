@@ -34,6 +34,20 @@ class DailyRecord:
         self.score = score
         self.note = note
 
+    def morning(self):
+        if len(self.wake) == 4:
+            morningTime = int(self.wake[0])*60 + int(self.wake[2:])
+        elif len(self.wake) == 5:
+            morningTime = int(self.wake[:2])*60 + int(self.wake[3:])
+        return morningTime
+
+    def night(self):
+        if len(self.bed) == 5:
+            nightTime = int(self.bed[:2])*60 + int(self.bed[3:])
+        elif len(self.bed) == 4:
+            nightTime = 1440 + int(self.bed[:1])*60 + int(self.bed[2:])
+        return nightTime
+
 db = []
 records = []
 for line in adat:
@@ -46,7 +60,6 @@ for line in adat:
     
     # Use zip_longest to pair keys with values, using None as the default for missing values
     variables = dict(zip_longest(keys, values, fillvalue=None))
-    print(variables)
 
     record = DailyRecord(**variables)
     
@@ -55,7 +68,11 @@ for line in adat:
 
     line = line.strip().split('\t')
     db.append(line)
-print(records[4].note)
+
+
+
+for i in range(len(records)):
+    pass
 
 mornings = 0
 nightTimes = []
