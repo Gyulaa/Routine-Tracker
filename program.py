@@ -1,8 +1,13 @@
 import os
+import math
 from itertools import zip_longest
 
-fileName = input("Input File Name> ")
-outFileName = input("Output File Name> ")
+# fileName = input("Input File Name> ")
+fileName = "input.txt"
+
+# outFileName = input("Output File Name> ")
+outFileName = "output.txt"
+
 file = open(fileName, "r", encoding="utf-8")
 if os.path.exists(outFileName):
   os.remove(outFileName)
@@ -73,11 +78,6 @@ for line in adat:
     line = line.strip().split('\t')
     db.append(line)
 
-print(records[17].sleep_duration())
-print(records[17].sleep)
-print(records[17].night())
-print(records[18].night())
-
 morning_avg = 0
 morning_records = 0
 night_avg = 0
@@ -87,7 +87,7 @@ sleep_dur_records = 0
 score_avg = 0
 score_records = 0
 
-for i in range(len(records), 1, 1):
+for i in range(1, len(records)-1, 1):
     record = records[i]
 
     multiplier = 0.0415
@@ -100,10 +100,10 @@ for i in range(len(records), 1, 1):
     else:
         work_score = record.fullwork * nerfed_mulitplier
 
-    if  record.sleep < 540:
-        sleep_score = record.sleep * multiplier
+    if  record.sleep_duration() < 540:
+        sleep_score = record.sleep_duration() * multiplier
     else:
-        sleep_score = record.sleep * nerfed_mulitplier
+        sleep_score = record.sleep_duration() * nerfed_mulitplier
 
     if record.podcast < 75:
         podcast_score = record.podcast * multiplier
@@ -114,21 +114,22 @@ for i in range(len(records), 1, 1):
         reading_score = record.reading * multiplier
     else:
         reading_score = record.reading * nerfed_mulitplier
-    
-    score = work_score + sleep_score + podcast_score + reading_score
 
-    if record.diet != 0:
-        score += 5
-    if record.workout != 0:
-        score += 7
-    if record.meditation != 0:
-        score += 5
-    if record.masturbation == 0:
-        score += 15
-    if record.music == 0:
-        score += 3
-    if record.gaming == 0:
-        score += 5
+    diet_score = 5 if record.diet != "0" else 0
+    workout_score = 7 if record.workout != "0" else 0
+    meditation_score = 5 if record.meditation != "0" else 0
+    masturbation_score = 15 if record.masturbation == 0 else 0
+    music_score = 3 if record.music == "0" else 0
+    gaming_score = 5 if record.gaming == "0" else 0
+
+    score = (work_score + sleep_score + podcast_score + reading_score +
+            diet_score + workout_score + meditation_score +
+            masturbation_score + music_score + gaming_score)
+
+    print(record.date, round(work_score), round(sleep_score), round(podcast_score), round(reading_score),
+            diet_score, workout_score, meditation_score,
+            masturbation_score, music_score ,gaming_score, math.floor(score))
+
 
 
 mornings = 0
@@ -137,7 +138,7 @@ nights = 0
 sleeps = 0
 allScore = 0
 validDays = 0
-
+print("**************")
 for i in range(len(db)-1):
     if len(db[i]) >= 15 and i > 0 and db[i][15] != '' and db[i][14] != '' and db[i][3] != '':
         validDays += 1
@@ -188,7 +189,6 @@ for i in range(len(db)-1):
 
         
         # Calculate Score
-        print(date)
         if workTime < 660:
             workSCR = workTime * 0.0415
         else:
@@ -215,18 +215,16 @@ for i in range(len(db)-1):
         
         currentSCR = score
 
-        if properlyEating != 0:
-            score += 5
-        if workout != 0:
-            score += 7
-        if visualization != 0:
-            score += 5
-        if masturbation == 0:
-            score += 15
-        if music == 0:
-            score += 3
-        if gaming == 0:
-            score += 5
+        eating_score = 5 if properlyEating != 0 else 0
+        workout_score = 7 if workout != 0 else 0
+        visu_score = 5 if visualization != 0 else 0
+        masturbation_score = 15 if masturbation == 0 else 0
+        music_score = 3 if music == 0 else 0
+        gaming_score = 5 if gaming == 0 else 0
+
+        # Sum up all the scores to get the final score
+        score = (workSCR + sleepSCR + podcastSCR + readSCR + eating_score + 
+           workout_score + visu_score + masturbation_score + music_score + gaming_score)
 
         allScore += score
 
@@ -234,6 +232,10 @@ for i in range(len(db)-1):
             db[i][17] = str(score)[:2]
         else:
             db[i][17] = str(score)[:3]
+
+        print(date, round(workSCR), round(sleepSCR), round(podcastSCR), round(readSCR), eating_score, 
+            workout_score, visu_score, masturbation_score, music_score, gaming_score, round(score))
+
 
 
 # Add time avarages
