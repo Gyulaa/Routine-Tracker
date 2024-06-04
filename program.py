@@ -129,6 +129,17 @@ for i in range(1, len(records)-1, 1):
     print(record.date, round(work_score), round(sleep_score), round(podcast_score), round(reading_score),
             diet_score, workout_score, meditation_score,
             masturbation_score, music_score ,gaming_score, math.floor(score))
+    
+
+
+    morning_avg, morning_records = ((morning_avg * morning_records + record.morning()) / (morning_records + 1), morning_records + 1) if morning_records > 0 else (record.morning(), 1)
+    night_avg, night_records = ((night_avg * night_records + record.night()) / (night_records + 1), night_records + 1) if night_records > 0 else (record.night(), 1)
+    score_avg, score_records = ((score_avg * score_records + score) / (score_records + 1), score_records + 1) if score_records > 0 else (score, 1)
+    
+morning_avg = str(int(morning_avg/60))+":"+str(int(morning_avg%60))
+night_avg = str(int(night_avg/60))+":"+str(int(night_avg%60))
+score_avg = int(score_avg)
+print(morning_avg, night_avg, score_avg)
 
 
 
@@ -250,6 +261,8 @@ db[len(db)-1].append(avgSleep)
 
 avgScore = str(allScore / validDays)[:2]
 db[len(db)-1].append(avgScore)
+
+print(avgMorning, avgNight, avgScore, avgScore)
         
 with open(outFileName, 'a', encoding="utf-8") as f:
     for i in range(len(db)):
