@@ -1,33 +1,31 @@
-Dátum	Iskolai Tanulmányok	Business, Önfejlesztés	Munkaidő	Bevétel	Kiadás	Podcast, fejlesztő videós tartalom	Olvasás	Étkezési Rutin	Edzés	Meditáció, Vizualizáció	Kielégülés	Dopamindús zene	Gaming	Kelés	Fekvés	Alvásidő	Pontszám	Jegyzet
-2024.05.01.	0	450	450	0	0	47	47	1	1	1	0	0	0	6:00	22:05	7:55:00	82	Napközbn az agencyn dolgoztam. Délután átjött Kadosa és lenyomtunk egy tisztességes edzést és közben beszélgettünk.	
-2024.05.02.	490	20	510	0	0	73	58	1	1	1	0	0	0	5:50	21:45	8:05:00	86	Délután szintvizsga tételeken dolgoztam.	
-2024.05.03.	150	60	210	3000	2800	60	50	0	1	1	1	0	0	5:58	22:00	7:58:00	53	Délelőtt az MCC-vel voltam meghallgatni 2 bírósági tárgyalást. Érdekes volt, mert ilyesmiben eddig nem volt részem.	
-2024.05.04.	525	25	550	0	0	0	50	1	1	1	0	0	0	5:30	22:00	7:30:00	83	Majdnem egész nap szintvizsgára készültem	
-2024.05.05.	30	155	185	0	0	80	35	0	1	1	0	0	1	5:35	21:35	8:00:00	62	Délelőtt főként házimunkákat csináltam. Dél körül nyomós fásultság nehezedett rám. Szerintem azért, mert már egy ideje nem csináltam lényegi munkát, csak iskolai vagy mcc-s dolgokat... Ezt végül elmélkedéssel, hideg zuhannyal és átöltözéssel eloszlattam. Este fele itt volt a Deli család. Imivel Sar Craftoztunk.	
-2024.05.06.	117	370	487	0	0	90	45	1	1	1	0	0	0	5:35	21:40	7:55:00	85	Reggel töri szintvizsgáztam, szerintem jól ment. A nap többi részében Charlie Morgan videókat néztem. Este Kadosával volt megbeszélésem.	
-2024.05.07.	140	200	340	0	0	70	67	1	1	1	0	0	0	5:40	22:05	7:35:00	78	Délelőtt irodalomból volt szintvizsga, szerintem egész jó lett. Fél kettő körül bementem a városba, hogy beszéljek Fanniékkal az MCC-s Ösztöndíjprogramról. Délután eljött Pereczes és edzettünk egy jót. Ajándékozott egy edzős trikót is nekem.	
-2024.05.08.	0	450	450	0	0	57	50	1	1	1	0	0	0	5:44	21:40	8:04:00	83	Reggel MCC ÖSztöndíjprogramot dolgoztam ki. Délután eljött Kadosa és Pereczes edzeni. Az erősítő gyakorlatokon kívül futottunk körülbelül 20 perc alatt négy kilómétert.	
-2024.05.09.	0	430	430	0	0	50	28	1	1	1	0	1	0	5:57	21:40	8:17:00	78	Délelőtt csináltam 6 cold callt (első alkalom!). Délelőtt még füvet nyírtam. Délután eljött Kadosa és a businessel foglalkoztunk. Ma összesen 8 cold callt csináltam. Az egyik lead még hajlandó is lett volna, csak a számlázás után érdeklődött, úgyhogy az ilyen dolgoknak még utánna kell járni.	
-2024.05.10.	0	440	440	0	0	60	30	1	1	1	0	0	0	6:04	22:00	8:04:00	82	Dolgoztam, este pedig elmenünk megnézni egy Örkény elbeszélést.	
-2024.05.11.	0	235	235	0	0	72	121	1	1	1	0	0	0	6:45	21:35	9:10:00	77	Nem találtam munkát, amin dolgozhatok, úgyhogy inkább olvastam és videót néztem.	
-2024.05.12.	0	150	150	0	0	83	80	0	1	1	1	0	0	6:15	22:00	8:15:00	52	Delelőtt templomban voltam.	
-2024.05.13.	380	100	480	0	0	50	125	1	1	1	0	0	0	5:50	21:45	8:05:00	86	Iskolában voltam és kiderült, hogy mindkét szintvizsgám 5ös lett. Este informatív videókat néztem.	
-2024.05.14.	430	100	530	0	0	50	35	1	1	1	0	0	0	5:38	22:00	7:38:00	84	Átlagos nap. Este megnéztem egy Charlie Morgan videót, ami hasznos volt.	
-2024.05.15.	220	110	330	0	0	53	30	1	0	1	0	0	1	5:35	21:45	7:50:00	64	Volt lyukas óra, ahol játszottunk valami böngészős minecraftot. Délután epret készítettünk elő.	
-2024.05.16.	345	60	405	0	3500	90	49	0	0	1	0	0	1	6:05	22:00	8:05:00	65	Délután Orbán Balázs könyvbemutatóján voltam, de beszélgetni tudtam Kálnoky Borissal is. Megvettem a Huszárvágás könyvet. Este azt kezdtem el átgondolni, hogy milyen lehetne egy hatékony iskolai nap.	
-2024.05.17.	295	0	295	0	0	0	50	1	0	1	1	0	1	6:00	21:35	8:25:00	48	None	
-2024.05.18.	0	260	260	0	0	14	60	1	1	1	0	0	1	5:40	22:10	7:30:00	67	Délután Minecraftoztam Leventével és Pereczessel. Logikusan végiggondolva egy hiba volt belemnni a minecraftozásba, remélem máskor jobban sikerül.	
-2024.05.19.	100	270	370	0	0	31	10	1	1	1	0	0	1	6:15	23:00	7:15:00	70	Dolgozgattam, este pedig Leventével Minecraftoztunk.	
-2024.05.20.	0	310	310	0	0	70	15	1	1	0	0	0	1	6:01	22:25	7:36:00	65	Délelőtt csináltam néhány cold callt (market research), de végül belefutottam valakibe, aki nem díjazta, hogy piros betűs ünnepeb zavarom, úgyhogy többet ilyet nem csinálok. A nyári alkotótáborhoz terveztem a szórólapot. Este Minecraftoztam...	
-2024.05.21.	470	50	520	0	0	48	46	1	1	0	1	0	1	6:05	21:40	8:25:00	61	None	
-2024.05.22.	485	10	495	0	0	0	10	1	1	1	0	0	1	6:05	22:05	8:00:00	75	Este anyáékkal megnéztem a Gone Girl filmet.	
-2024.05.23.	345	95	440	0	0	50	75	1	1	1	0	0	0	5:58	22:05	7:53:00	82	Végre nem játszottam. Kezd visszatérni a mindset.	
-2024.05.24.	280	163	443	10000	9000	100	47	1	1	0	0	0	0	5:45	22:00	7:45:00	78	Vásároltam 2 rövid nadrágot. Voltam pályaorientációs alkalmon, ahol felmértek. Azt tanácsolták, hogy Szegedre menjek programtervező informatikusnak. Otthon Market Research hívásokat csináltam kertépítőkkel.	
-2024.05.25.	0	270	270	0	0	0	20	0	1	1	0	0	1	5:55	22:35	7:20:00	60	Ma volt a születésnapom. Kaptam egy állítható magasságú íróasztal, ami körülbelül 100K volt. Azt szereltük ödsze délután. Kadosa átjött és segített a szerelésben, aztán kimentünk edzeni. Este vacsoránál apa megkínált Tokajival és utánna mesélte nekünk a középiskolás történeteit.	
-2024.05.26.	0	203	203	0	0	30	42	0	0	0	0	0	0	6:00	22:00	8:00:00	54	Délelőtt egyházi gyereknapon segítettünk anyával. Dél körül jött Levente és kicsivel később Pereczes. Egy ünnepi ebéd után elkezdtünk Marsozni, amit Pereczes nyert meg.	
-2024.05.27.	470	0	470	0	0	75	70	1	1	1	1	0	0	5:58	22:00	7:58:00	70	Iskolában voltam, utánna fizika házit csináltam. Este megnéztem az új Charlie Morgan videót, ami elég jól jött.	
-2024.05.28.	490	45	535	0	0	60	65	1	1	1	0	0	0	6:08	22:00	8:08:00	87	Sokáig tartott az iskola.	
-2024.05.29.	480	70	550	0	0	43	50	1	1	1	0	1	0	6:00	21:55	8:05:00	83	Iskolában jól éreztem mgam. Infó szakkörön tanultuk az objektum orientált programozást. Este anyával beszélgettünk biznisszel kapcsolatban.	
-2024.05.30.	360	160	520	0	0	60	55	1	1	0	0	0	1	6:07	22:00	8:07:00	76	Délután a rajztábor hirdetéseit készítettem Facebookon.	
-2024.05.31.	325	210	535	0	0	60	35	1	0	0	0	1	0	6:05	21:45	8:20:00		Délután ismét foglalkoztam a hirdetésekkel, rendet raktam a szobámban, megterveztem a követlező havi trackert.	
-Összesen / Átlag	6927	5471	12398	13000	15300	1579	1468	24	25	24	5	3	11	5:55	21:57	7:57	72
+Dátum	Iskolai Tanulmányok	Munka	Munkaidő	Bevétel	Kiadás	Fejlesztő Ismeretek	Olvasás	Tiszta Étkezés	Edzés	Meditáció / NSDR	Mindset	Kielégülés	Dopamindús tartalom	Gaming	Kelés	Fekvés	Alvásidő	Pontszám	Jegyzet
+2024.06.01.	0	300	300	0	0	17	0	0	1	0	0	0	0	0	6:10	22:10	8:00:00	56	Délre jöttek Imiék és velük is megünnepeltük a születésnapomat. Ebéd után felmentünk Imivel a szobámba és programozós játékkal kezdtünk el játszani, ahol különböző feladatokat kellett megoldani. Sajnos abszolút egészségtelenül étkeztem.	
+2024.06.02.	0	396	396	0	0	70	67	1	1	1	1	1	0	0	6:23	22:10	8:13:00	82	Délelőtt eljött mama és a barátai mésziék. Kellett segíteni, így délelőtt nem sokat tudtam dolgozni. Délután a cél kitűzéssel foglalkoztam és a globális helyzetet próbáltam átlátni.	
+2024.06.03.	335	117	452	0	0	80	50	0	1	0	1	0	0	0	5:45	21:47	7:58:00	71	Délután arra jutottam, hogy az AI-ban lenne adott esetben a legjobb elhelyezkedni.	
+2024.06.04.	490	195	685	0	0	0	55	0	0	0	0	0	0	0	6:04	22:05	7:59:00	72	None	
+2024.06.06.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.07.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.08.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.09.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.10.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.11.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.12.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.13.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.14.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.15.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.16.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.17.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.18.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.19.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.20.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.21.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.22.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.23.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.24.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.25.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.26.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.27.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.28.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.29.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+2024.06.30.	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+Összesen / Átlag	1125	1068	2193	0	0	167	222	1	4	1	2	1	0	0	6:5	22:3	8:2	70
