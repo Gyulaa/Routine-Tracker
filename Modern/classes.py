@@ -77,20 +77,24 @@ class DailyRecord:
                 sleep_score = self.sleep_duration() * (26 / 490)
 
         if self.podcast == "":
-            podcast_score = 0
-        else:
-            if self.podcast < 60:
-                podcast_score = self.podcast * (3.5 / 60)
+            if self.reading == "":
+                knowledge_score = 0
             else:
-                podcast_score = self.podcast * (3.5 / 65)
-        
-        if self.reading == "":
-            reading_score = 0
-        else:
-            if self.reading < 60:
-                reading_score = self.reading * (3.5 / 60)
+                if self.reading < 120:
+                    knowledge_score = self.reading * (3.5 / 60)
+                else:
+                    knowledge_score = self.reading * (3.5 / 65)
+        elif self.reading == "":
+            if self.podcast < 120:
+                knowledge_score = self.podcast * (3.5 / 60)
             else:
-                reading_score = self.reading * (3.5 / 65)
+                knowledge_score = self.podcast * (3.5 / 65)
+        else:
+            knowledge = self.podcast + self.reading
+            if knowledge < 120:
+                knowledge_score = knowledge * (3.5 / 60)
+            else:
+                knowledge_score = knowledge * (3.5 / 65)
 
         diet_score = 6 if self.diet == "1" else 0
         workout_score = 6 if self.workout == "1" else 0
@@ -103,7 +107,7 @@ class DailyRecord:
         dopamin_score = 2 if self.dopamin == "0" else 0
         gaming_score = 5 if self.gaming == "0" else 0
 
-        self.score = round(work_score + sleep_score + podcast_score + reading_score +
+        self.score = round(work_score + sleep_score + knowledge_score +
                          diet_score + workout_score + meditation_score + mindset_score +
                          masturbation_score + dopamin_score + gaming_score, 1)
         
