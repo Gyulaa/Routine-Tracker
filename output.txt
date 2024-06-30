@@ -1,31 +1,31 @@
-Dátum	Iskolai Tanulmányok	Munka	Munkaidő	Bevétel	Kiadás	Fejlesztő Ismeretek	Olvasás	Tiszta Étkezés	Edzés	Meditáció / NSDR	Mindset	Kielégülés	Dopamindús tartalom	Gaming	Kelés	Fekvés	Alvásidő	Pontszám	Jegyzet2024.06.01.	0	300	300	0	0	17	0	0	1	0	0	0	0	0	6:10	22:10	8:00:00	56.3	Délre jöttek Imiék és velük is megünnepeltük a születésnapomat. Ebéd után felmentünk Imivel a szobámba és programozós játékkal kezdtünk el játszani, ahol különböző feladatokat kellett megoldani. Sajnos abszolút egészségtelenül étkeztem.	
-2024.06.02.	0	396	396	0	0	70	67	1	1	1	1	1	0	0	6:23	22:10	8:13:00	85.7	Délelőtt eljött mama és a barátai mésziék. Kellett segíteni, így délelőtt nem sokat tudtam dolgozni. Délután a cél kitűzéssel foglalkoztam és a globális helyzetet próbáltam átlátni.	
+Dátum	Iskolai Tanulmányok	Munka	Munkaidő	Bevétel	Kiadás	Fejlesztő Ismeretek	Olvasás	Tiszta Étkezés	Edzés	Meditáció / NSDR	Mindset	Kielégülés	Dopamindús tartalom	Gaming	Kelés	Fekvés	Alvásidő	Pontszám	Jegyzet2024.06.01.	0	300	300	0	0	17	0	0	1	0	0	0	0	0	6:10	22:10	8:00:00	56.0	Délre jöttek Imiék és velük is megünnepeltük a születésnapomat. Ebéd után felmentünk Imivel a szobámba és programozós játékkal kezdtünk el játszani, ahol különböző feladatokat kellett megoldani. Sajnos abszolút egészségtelenül étkeztem.	
+2024.06.02.	0	396	396	0	0	70	67	1	1	1	1	1	0	0	6:23	22:10	8:13:00	77.5	Délelőtt eljött mama és a barátai mésziék. Kellett segíteni, így délelőtt nem sokat tudtam dolgozni. Délután a cél kitűzéssel foglalkoztam és a globális helyzetet próbáltam átlátni.	
 2024.06.03.	335	117	452	0	0	80	50	0	1	0	1	0	0	0	5:45	21:47	7:58:00	74.2	Délután arra jutottam, hogy az AI-ban lenne adott esetben a legjobb elhelyezkedni.	
 2024.06.04.	490	195	685	0	0	0	55	0	0	0	0	0	0	0	6:04	22:05	7:59:00	72.9		
-2024.06.05.	300	155	455	0	2800	65	78	1	1	0	0	0	0	0	6:10	21:45	8:25:00	79.0	Viselkedés követőn fejlesztettem.	
+2024.06.05.	300	155	455	0	2800	65	78	1	1	0	0	0	0	0	6:10	21:45	8:25:00	78.7	Viselkedés követőn fejlesztettem.	
 2024.06.06.	325	200	525	0	500	60	67	1	1	1	0	0	0	0	5:55	22:10	7:45:00	84.5	Délután kémia házit csináltam és a viselkedés követő kiértékelő programját készítettem el.	
 2024.06.07.	340	105	445	0	0	0	25	1	1	1	0	0	0	0	5:45	22:15	7:30:00	73.8	Lett 2 érdeklődő a hirdetésekből, akiket anya felhívott. Jelentkeztem a nyári MCC-s táborba	
-2024.06.08.	0	426	426	0	0	60	65	1	1	0	1	5	0	0	6:35	21:35	9:00:00	101.3	Elkezdtem beleásni magam a mesterséges intelligencia programozásba.	
-2024.06.09.	0	480	480	0	0	45	50	1	1	0	1	0	1	0	6:17	22:05	8:12:00	78.6	Belekostóltam a matplotlibbe, elkezdtem egy harvardos kurzust a valószínűség számításról.	
-2024.06.10.	215	235	450	0	0	71	75	0	1	0	1	0	0	0	6:03	21:45	8:18:00	75.5	Hamar véget ért a suli, délután harvardos kurzust csináltam.	
+2024.06.08.	0	426	426	0	0	60	65	1	1	0	1	5	0	0	6:35	21:35	9:00:00	61.0	Elkezdtem beleásni magam a mesterséges intelligencia programozásba.	
+2024.06.09.	0	480	480	0	0	45	50	1	1	0	1	0	1	0	6:17	22:05	8:12:00	78.3	Belekostóltam a matplotlibbe, elkezdtem egy harvardos kurzust a valószínűség számításról.	
+2024.06.10.	215	235	450	0	0	71	75	0	1	0	1	0	0	0	6:03	21:45	8:18:00	75.2	Hamar véget ért a suli, délután harvardos kurzust csináltam.	
 2024.06.11.	465	50	515	0	0	60	25	1	1	0	1	0	1	0	5:50	22:05	7:45:00	79.0	Értesítettek, hogy beválogattak a szóbeli meghallgatásra az MCC-s ösztöndíjprogramon.	
-2024.06.12.	300	15	315	0	0	80	60	0	1	1	1	1	1	0	5:57	21:55	8:02:00	72.8	Délután nem sokat tudtam haladni. mert a szénhidrátok elvitték az energiám. Voltam MCC-s előadáson, ahol Kőbán Rita és Jónyer Istvánnal volt beszélgetés.	
+2024.06.12.	300	15	315	0	0	80	60	0	1	1	1	1	1	0	5:57	21:55	8:02:00	64.5	Délután nem sokat tudtam haladni. mert a szénhidrátok elvitték az energiám. Voltam MCC-s előadáson, ahol Kőbán Rita és Jónyer Istvánnal volt beszélgetés.	
 2024.06.13.	240	144	384	0	0	55	10	1	1	0	1	0	1	0	6:05	22:15	7:50:00	70.8	Elkezdtem megszerkezteni a prezenációt az MCC ÖP-ra.	
-2024.06.14.	260	230	490	1000	900	30	55	1	1	0	1	0	1	0	6:00	22:00	8:00:00	77.9	Találkoztam Bencével és adott tanácsokat a szóbeli meghallgatáshoz + beszélgettünk. Fanni és Bence tanácsai után átszerkesztettem a prezentációt.	
-2024.06.15.	0	400	400	0	0				1	1	1				6:00		6:00:00	54.9		
-2024.06.16.																				
-2024.06.17.																				
-2024.06.18.																				
-2024.06.19.																				
-2024.06.20.																				
-2024.06.21.																				
-2024.06.22.																				
-2024.06.23.																				
-2024.06.24.																				
-2024.06.25.																				
-2024.06.26.																				
-2024.06.27.																				
-2024.06.28.																				
-2024.06.29.																				
-2024.06.30.																				
-Összesen / Átlag	3270	3448	6718	1000	4200	693	682	9	14	5	10	7	5	0	6:04	22:00	7:56	75.8
+2024.06.14.	260	230	490	1000	900	30	55	1	1	0	1	0	1	0	6:00	22:00	8:00:00	77.6	Találkoztam Bencével és adott tanácsokat a szóbeli meghallgatáshoz + beszélgettünk. Fanni és Bence tanácsai után átszerkesztettem a prezentációt.	
+2024.06.15.	0	480	480	0	0	0	90	1	1	1	1	2	0	0	6:00	21:53	8:07:00	75.7	Próbáltam az MCC-s meghallgatásra	
+2024.06.16.	0	100	100	0	0	37	200	0	1	0	0	0	0	0	5:47	22:00	7:47:00	56.7	Felmentünk Pestre, hogy megnézzük a fény kiállítást.	
+2024.06.17.	100	0	100	0	0	22	85	0	1	0	1	5	0	0	5:55	21:10	8:45:00	35.4	Emmaui csendesnap volt, sokat tudtunk focizni.	
+2024.06.18.	10	355	365	0	0	47	65	1	1	0	1	0	0	0	5:40	21:50	7:50:00	74.5	Délelőtt Fannival találkoztam, aki adott tanácsokat a prezentációmhoz, délután otthon készültem.	
+2024.06.19.	140	125	265	0	0	15	53	1	0	0	1	0	0	0	5:50	21:50	8:00:00	60.0	Kadosával Bencével találkoztam.	
+2024.06.20.	0	120	120	0	0	56	140	1	0	0	1	0	0	0	5:27	22:10	7:17:00	57.0	Szóbeli meghallgatás volt ÖP-hez	
+2024.06.21.	220	30	250	0	500	27	47	0	0	0	1	10	0	0	6:00	21:53	8:07:00	13.9	Utolsó tanítási nap. Szerződést kötöttem az Univerzummal.	
+2024.06.22.	30	250	280	0	0	65	74	1	1	0	0	0	0	1	5:35	23:00	6:35:00	58.6	Múzeumok éjszakája volt.	
+2024.06.23.	260	0	260	10000	0	63	34	0	1	0	1	0	1	1	6:40	23:30	7:10:00	52.5	Tanévzáró istentisztelet.	
+2024.06.24.	30	0	30	0	300	0	60	0	0	0	0	0	0	0	6:00	23:00	7:00:00	34.9	Első nap az Erdélyi osztálykiránduláson. Megálltunk Nagyszalontán, Arany János szülőházán. Voltunk a Medvés barlangban aztán megérkeztünk a torockói szállásra.	
+2024.06.25.	0	0	0	0	200	0	20	0	1	0	0	0	0	0	6:10	23:20	6:50:00	36.4	Megmásztuk a Székely-követ Toroczkószentgyörgyről. Remek túra volt, a végén még a vihar ia elkapott bennünket.	
+2024.06.26.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7:10	22:45	8:25:00	33.5	Voltunk a Tordai sóbányában, ahol csónakáztunk is meg ping-pongoztunk. Voltunk egy sós strandon is.	
+2024.06.27.	0	0	0	0	0	0	0	0	0	0	0	0	0	1	6:00	0:00	6:00:00	21.5	Megnéztük a Tordai-szakadékot és felfedeztük Kolozsvárt. Áttettük szálláshelyünk Zsobokra.	
+2024.06.28.	0	0	0	0	0	0	0	0	1	0	0	0	0	1	6:50	0:00	6:50:00	30.2	Fociztunk a helyi gyerekekkel. Volt miccs és kürtöskalács sütés. Voltak, akik beöltözhettek népviseletbe.	
+2024.06.29.	0	0	0	0	700	15	10	0	0	0	0	0	0	0	7:00	23:00	8:00:00	33.7	Utolsó nap a kiránduláson. Megnéztük a zsoboki, és még egy másik református templomot. Megálltunk egy pihenőre a Király-hágón, aztán megérkeztünk haza. Itthon elmeséltem a történteket.	
+2024.06.30.	0	115	115	0	0	55	15	0	1	1	1	5	0	0	5:57		5:57:00	29.9		
+Összesen / Átlag	4060	4623	8683	11000	5900	1095	1575	14	22	6	17	29	6	4	6:06	22:19	7:43	57.6

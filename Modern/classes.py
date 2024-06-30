@@ -74,7 +74,7 @@ class DailyRecord:
             if self.sleep_duration() < 480:
                 sleep_score = self.sleep_duration() * (26 / 480)
             else:
-                sleep_score = self.sleep_duration() * (26 / 490)
+                sleep_score = self.sleep_duration() * (26 / 495)
 
         if self.podcast == "":
             if self.reading == "":
@@ -103,7 +103,7 @@ class DailyRecord:
         if self.masturbation == "":
             masturbation_score = 0
         else:
-            masturbation_score = self.masturbation * 4
+            masturbation_score = self.masturbation * -4
         dopamin_score = 2 if self.dopamin == "0" else 0
         gaming_score = 5 if self.gaming == "0" else 0
 
